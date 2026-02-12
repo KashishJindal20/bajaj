@@ -10,7 +10,7 @@ app.use(express.json());
 app.use(helmet());
 app.use(cors());
 
-const EMAIL = "kashish1393.be23@chitkara.edu.in";
+const EMAIL = "kashish0417.be23@chitkara.edu.in";
 
 const fibonacci = (n) => {
     if (n < 0) return [];
@@ -127,4 +127,5 @@ app.post("/bfhl", async (req,res)=>{
 
 app.listen(process.env.PORT,()=>{
     console.log("Server running...");
+
 });
